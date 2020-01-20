@@ -29,8 +29,6 @@ cv2.destroyAllWindows()
 写图片
 """
 cv2.imwrite('imagename.png',saving_path)
-
-
 """
 读取图片，按特定键位退出
 """
