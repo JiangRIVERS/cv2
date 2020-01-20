@@ -1,9 +1,5 @@
 """
 @author: Jiang Rivers
-"""
-
-"""
-Description
 
 Goal:
 Learn to draw different geometric shapes with OpenCV
