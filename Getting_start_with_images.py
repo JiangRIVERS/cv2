@@ -19,6 +19,7 @@ cv2.imshow('image',image)
 cv2.waitKey(0) & 0xFF
 #按下任意键继续执行，括号内可指定image按特定键位继续执行
 #If you are using a 64-bit machine, you will have to modify k = cv.waitKey(0) line as follows : k = cv.waitKey(0) & 0xFF
+
 cv2.destroyAllWindows()
 #cv.destroyAllWindows() simply destroys all the windows we created.
 # If you want to destroy any specific window, use the function cv.destroyWindow()
