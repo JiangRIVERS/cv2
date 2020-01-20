@@ -1,4 +1,8 @@
 """
+@author: Rivers Jiang
+"""
+
+"""
 读取图片并展示
 """
 import cv2
