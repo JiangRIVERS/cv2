@@ -63,7 +63,7 @@ while cap.isOpened():
     out.write(frame)
 
     cv2.imshow('flip_irving',frame)
-    if cv2.waitKey(20)==ord('q'):
+    if cv2.waitKey(20) & 0xFF==ord('q'):
         break
 #Release everything if job is finished
 cap.release()
